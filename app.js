@@ -2,7 +2,7 @@ const mongoose=require("mongoose");
 mongoose.set('strictQuery',false);
 const PORT=process.env.PORT||3000
 //mongoose.connect("mongodb://127.0.0.1:27017/softwareProject");
-mongoose.connect("mongodb+srv://anmolraj029:SS2SvEyXZOi4RspL@cluster0.gavwnmd.mongodb.net/College_MIS")
+mongoose.connect("mongodb+srv://manishakomal2002:lmQblRKH89qX4K0h@cluster0.chla7do.mongodb.net/college_mis")
 .then(()=>{
     console.log("mongo connected")
 })
